@@ -11,25 +11,6 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 
 
-    <script type="text/javascript">
-      var uid = "";
-      var pass ="";
-
-      function inputUID(uidValue){
-       uid = uidValue ;
-      }
-      function inputPass(passValue){
-        pass = passValue ;
-
-      }
-      function validateForm(){
-
-      }
-    </script>
-
-
-
-
 </head>
 <body>
 
@@ -62,13 +43,13 @@
   <div class="row">
 
     <div class="container " id ="cnt">
-      <form  action="action.php" method="post" onsubmit="validateForm()">
+      <form  action="action.php" method="post">
         <table class="bordered">
           <tr> <div class="container ">ADMIN LOGIN </div> </tr>
           <tr>
             <div class="row">
                <div class="input-field col s4">
-                 <input value="" id="usrid" type="text" class="validate" oninput="inputUID(value)"/>
+                 <input value="" name ="usrid" id="usrid" type="text" class="validate"/>
                  <label class="active" for="first_name2">Enter AdminID</label>
                </div>
              </div>
@@ -76,7 +57,7 @@
           <tr>
             <div class="row">
                <div class="input-field col s4">
-                 <input value="" id="password" type="password" class="validate" oninput="inputPass(value)"/>
+                 <input value="" name ="password"id="password" type="password" class="validate" />
                  <label class="active" for="first_name2">Enter password</label>
                </div>
              </div>
