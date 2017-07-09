@@ -50,9 +50,9 @@
         <!-- Dropdown Structure -->
         <ul id='dropdown1' class='dropdown-content'>
           <li></li>
-          <li><a href="staff.php"> < ---  add a staff  --- > </a></li>
-          <li><a href="student.php"> < ---  add a student record  --- > </a></li>
-          <li><a href="finance.php"> < ---  checkout Balance sheet --- > </a></li>
+          <li><a href="paid.php"> < ---  see paid amount --- > </a></li>
+          <li><a href="payrequest.php"> < --- pay the reuest amount  --- > </a></li>
+          <li><a href="graph.php"> < ---  display in graph --- > </a></li>
         </ul>
 
       </div>
