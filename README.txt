@@ -1,6 +1,6 @@
 The software Inventory Management system for the NGO, Reaching Hand, is an easily available software with user-friendly interface. 
 URL to access for thr website:
-shivz.byethost7.com 
+www.shivz.byethost7.com 
 It is easily accessible by going to the given link.
 Pre-requistes:
 # Internet Connection.
