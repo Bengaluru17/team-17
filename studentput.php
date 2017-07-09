@@ -12,8 +12,8 @@ $desc = $_POST[desc] ;
 $db = mysqli_connect("localhost","root","admin","tempbase");
 $query = "insert into student (name, gender,dob,age,description ) values ('$name','$gender','$dob',$age,'$desc') " ;
 $result = mysqli_query($db,$query);
-$mysqli_close($db) ;
-header('Location: ok.php');
+mysqli_close($db) ;
+header('Location: student.php');
 
 
  ?>
